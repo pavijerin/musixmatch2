@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;padding: 0%;
+}
+nav{
+
+display: flex;
+justify-content: space-between;
+}
+nav ul
+{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items:center ;
+}
+nav ul li
+{
+    list-style-type: none;
+    cursor:pointer;
+}
+nov li:hover{
+    color:red (242, 37, 37);
+}
+li button
+{
+    background-color:black;
+    color:white;
+    padding: 5px;
+    border-radius: 14px;
+}
+.first-sec
+{
+    background-color: rgb(239, 240, 241);
+    margin-left:200px;
+    margin-top:50px;
+}
+.first-sec h1{
+    font-size: 90px;
+}
+.subdiv-1,.subdiv-2,.subdiv-3,.subdiv-4
+{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.subdiv-1 ul li,.subdiv-2 ul li,
+.subdiv-3 ul li,.subdiv-4 ul li
+{
+    list-style-type: none;
+}
+.main-div{
+    display: flex;
+}
+.second-sec,.third-sec,.fifth-sec
+{
+    background-color:white;
+    margin-left:200px;
+    margin-top:50px;
+
+
+}
+.fourth-sec ul li button
+{
+    background-color: rgb(233, 226, 226);
+    color:black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.fourth-sec
+{
+    display: flex;
+    margin-left:600px;
+    margin-top:50px;
+}
+ul li{
+    list-style-type:none;
+}
+.section-set
+{
+    display: flex;
+    text-align:center;
+    margin-left:10px;
+    margin-top: 0px;
+}
+.third-set
+{
+    display: flex;
+    margin-left:100px;
+    margin-top:0px;
+}
+.third-set
+{
+    display: flex;
+    margin-left: 0px;
+    margin-top: 0x;
+    font-size: 20px;
+}
+
+.fourth-set
+{
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 0px;
+    font-size:30px ;
+}
+.fifth-set
+{
+    display: flex;
+    margin-left:100px;
+    margin-top:20px;
+}
