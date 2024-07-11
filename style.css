@@ -11,7 +11,7 @@ nav ul
 {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 30%;
     align-items:center;
 }
 nav ul li
@@ -78,7 +78,7 @@ ul li{
 }
 .fifth-section,.first-set
 {
-    font-size:25px;
+    font-size:50px;
 }
 .section-set
 {
