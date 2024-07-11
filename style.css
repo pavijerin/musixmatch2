@@ -11,8 +11,8 @@ nav ul
 {
     display: flex;
     justify-content: space-between;
-    width: 40%;
-    align-items:center ;
+    width: 50%;
+    align-items:center;
 }
 nav ul li
 {
@@ -32,7 +32,7 @@ li button
 .first-sec
 {
     background-color: rgb(239, 240, 241);
-    margin-left:200px;
+    margin-left:100px;
     margin-top:50px;
 }
 .first-sec h1{
@@ -76,6 +76,10 @@ li button
 ul li{
     list-style-type:none;
 }
+.fifth-section,.first-set
+{
+    font-size:25px;
+}
 .section-set
 {
     display: flex;
@@ -83,31 +87,35 @@ ul li{
     margin-left:10px;
     margin-top: 0px;
 }
-.third-set
+.third-set ul li
 {
     display: flex;
-    margin-left:100px;
-    margin-top:0px;
+    align-items:center;
+    margin-left: 2px;
+    margin-top: 20px;
 }
-.third-set
+.fourth-set 
 {
-    display: flex;
+    text-align: left;
     margin-left: 0px;
-    margin-top: 0x;
-    font-size: 20px;
+    margin-top: 20px;
+    font-size: 50px;
 }
 
-.fourth-set
-{
-    display: flex;
-    text-align: center;
-    margin-left: 100px;
-    margin-top: 0px;
-    font-size:30px ;
-}
 .fifth-set
 {
-    display: flex;
-    margin-left:100px;
+    background-color: rgb(163, 161, 161);
+    width: fit-content;
+    text-align: left;
+    margin-left: 2px;
+    font-size:50px ;
+    font-weight: 100;
+}
+.last-set
+{
+    background-color: rgb(141, 138, 138);
+    width: fit-content;
+    text-align: start;
+    margin: left 50px;
     margin-top:20px;
 }
