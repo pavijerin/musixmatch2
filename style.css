@@ -10,8 +10,8 @@ justify-content: space-between;
 nav ul
 {
     display: flex;
-    justify-content: space-between;
-    width: 30%;
+    justify-content:space-between;
+    width: 25%;
     align-items:center;
 }
 nav ul li
@@ -19,7 +19,7 @@ nav ul li
     list-style-type: none;
     cursor:pointer;
 }
-nov li:hover{
+nav li:hover{
     color:red (242, 37, 37);
 }
 li button
